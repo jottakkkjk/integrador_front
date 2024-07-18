@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Animal</title>
+    <link rel="stylesheet" href="css/animal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Registro de Animal</h2>
+        <form method="post">
+            <label for="raca">Raça:</label>
+            <select id="raca" name="raca" required>
+                <option value="">Selecione a raça</option>
+                <option value="Beagle">Beagle</option>
+                <option value="Bulldog Francês">Bulldog Francês</option>
+                <option value="Labrador Retriever">Labrador Retriever</option>
+                <option value="Poodle">Poodle</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Bulldog Inglês">Bulldog Inglês</option>
+                <option value="Dachshund">Dachshund</option>
+                <option value="Yorkshire Terrier">Yorkshire Terrier</option>
+                <option value="Rottweiler">Rottweiler</option>
+                <option value="Shih Tzu">Shih Tzu</option>
+                <option value="Pastor Alemão">Pastor Alemão</option>
+                <option value="Border Collie">Border Collie</option>
+                <option value="Boxer">Boxer</option>
+                <option value="Bulldog Americano">Bulldog Americano</option>
+                <option value="Husky Siberiano">Husky Siberiano</option>
+                <option value="Pit Bull">Pit Bull</option>
+                <option value="Cocker Spaniel">Cocker Spaniel</option>
+                <option value="Maltês">Maltês</option>
+                <option value="Dogue Alemão">Dogue Alemão</option>
+                <option value="Basset Hound">Basset Hound</option>
+                <option value="Shar Pei">Shar Pei</option>
+                <option value="Pug">Pug</option>
+                <option value="Akita">Akita</option>
+                <option value="Bichon Frisé">Bichon Frisé</option>
+                <option value="Chow Chow">Chow Chow</option>
+                <option value="Bull Terrier">Bull Terrier</option>
+                <option value="Setter Irlandês">Setter Irlandês</option>
+                <option value="Schnauzer">Schnauzer</option>
+                <option value="Doberman">Doberman</option>
+                <option value="Collie">Collie</option>
+                <option value="Whippet">Whippet</option>
+                <option value="Shiba Inu">Shiba Inu</option>
+                <option value="Galgo">Galgo</option>
+                <option value="Cane Corso">Cane Corso</option>
+                <option value="Outra">Outra</option>
+            </select>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero" required>
+                <option value="M">Macho</option>
+                <option value="F">Fêmea</option>
+            </select>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <label for="foto">Foto:</label>
+            <input type="text" id="foto" name="foto" required>
+
+            <label for="vacinado">Vacinado:</label>
+            <select id="vacinado" name="vacinado" required>
+                <option value="S">Sim</option>
+                <option value="N">Não</option>
+            </select>
+
+            <label for="porte">Porte:</label>
+            <select id="porte" name="porte" required>
+                <option value="P">Pequeno</option>
+                <option value="M">Médio</option>
+                <option value="G">Grande</option>
+            </select>
+
+            <label for="disponivel">Disponível:</label>
+            <select id="disponivel" name="disponivel" required>
+                <option value="S">Sim</option>
+                <option value="N">Não</option>
+            </select>
+
+            <label for="data_registro">Data de Registro:</label>
+            <input type="date" id="data_registro" name="data_registro" required>
+
+            <input type="submit" value="Registrar Animal">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; Laços de Carinho 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+

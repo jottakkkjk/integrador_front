@@ -1,0 +1,76 @@
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed; /* Garante que o modal fique fixo na tela */
+    z-index: 1; /* Posição na pilha de elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilita rolagem quando o conteúdo do modal é maior que a tela */
+    background-color: rgb(0,0,0); /* Cor de fundo escura */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo escura com transparência */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo do conteúdo do modal */
+    margin: 15% auto; /* Centraliza o modal na tela verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px; /* Largura do modal */
+    border-radius: 50px;
+    height: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width: 480px){
+    .modal {
+        display: none; /* Oculta o modal por padrão */
+        position: fixed; /* Garante que o modal fique fixo na tela */
+        z-index: 1; /* Posição na pilha de elementos */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; /* Habilita rolagem quando o conteúdo do modal é maior que a tela */
+        background-color: rgb(0,0,0); /* Cor de fundo escura */
+        background-color: rgba(0,0,0,0.4); /* Cor de fundo escura com transparência */
+    }
+    
+    .modal-content {
+        background-color: #fefefe; /* Cor de fundo do conteúdo do modal */
+        margin: 15% auto; /* Centraliza o modal na tela verticalmente */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 600px; /* Largura do modal */
+        border-radius: 50px;
+        height: auto;
+        width: 280px;
+        height: 280px;
+    }
+    
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
