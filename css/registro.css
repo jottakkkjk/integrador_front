@@ -73,6 +73,9 @@ select {
     border: 1px solid #0277bd;
     border-radius: 4px;
 }
+form{
+    margin-right: 15px;
+}
 
 input[type="submit"] {
     width: 100%;
